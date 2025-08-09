@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artikkels",
+  "info": {
+    "singularName": "artikkel",
+    "pluralName": "artikkels",
+    "displayName": "Artikkel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittel": {
+      "type": "string"
+    },
+    "innhold": {
+      "type": "richtext"
+    }
+  }
+}
